@@ -79,7 +79,7 @@ const makeComment = (arr) => {
   elementText.textContent = arr[0].message;
   return element;
 };
-x
+
 const renderComments = (arr) => {
   bigPictureComments.innerHTML = ``;
   bigPictureComments.appendChild(makeComment(arr));
@@ -91,3 +91,5 @@ renderComments(photoArr[0].comments);
 commentsLoaderButton.classList.add(`hidden`);
 commentsCount.classList.add(`hidden`);
 document.querySelector(`body`).classList.add(`modal-open`);
+
+'test'
